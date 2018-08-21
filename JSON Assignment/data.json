@@ -1,0 +1,20 @@
+{
+	"username": "Jskinny78",
+
+	"goals": 
+	[
+		{
+			"goal":"To create a website that will display the date and time",
+			"confidence": 9
+		},
+		{
+			"goal":"To create a website that will allow a user to login and access their, and only their, user data",
+			"confidence": 7
+		},
+		{
+			"goal":"To create a usable interface to access data from a given users' in-game progress",
+			"confidence": 2
+		}
+  ]
+	
+}
