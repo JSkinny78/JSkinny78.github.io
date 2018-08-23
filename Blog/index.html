@@ -1,0 +1,19 @@
+---
+title: TextCrawl Blog
+layout: main
+---
+<p> A clssic idea for a new age </p>
+{% for post in site.posts %}
+<article>
+	<h2> 
+		<a href=" {{site.baseurl}} {{post.url}}">
+		{{post.title}}</a> 
+	</h2>
+	<p>
+		{{post.exerpt}}
+	</p>
+	<p>
+		<a href="{{site.baseurl}}{{post.url}}"> Continue Reading... </a>		
+	</p>
+</article>
+{%end for %}
